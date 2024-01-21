@@ -35,6 +35,7 @@ namespace TVMaze.Data.Seeding
                     }
 
                     Console.WriteLine($"Call to {client.BaseAddress} failed with status code {response.StatusCode}");
+                    continue;
                 }
 
                 var result = await response.Content.ReadFromJsonAsync<ShowsSeedDto>();
