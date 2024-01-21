@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVMaze", "TVMaze\TVMaze.csproj", "{D45321A3-F407-48B8-A7F8-DD38F8C2D513}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TVMaze.Data", "TVMaze.Data\TVMaze.Data.csproj", "{8CE2B128-6C12-4B24-B933-3208315D951C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVMaze.Test", "TVMaze.Test\TVMaze.Test.csproj", "{38A3C5A7-FF63-48F1-A85D-875AE254AB4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D45321A3-F407-48B8-A7F8-DD38F8C2D513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45321A3-F407-48B8-A7F8-DD38F8C2D513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45321A3-F407-48B8-A7F8-DD38F8C2D513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45321A3-F407-48B8-A7F8-DD38F8C2D513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE2B128-6C12-4B24-B933-3208315D951C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE2B128-6C12-4B24-B933-3208315D951C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE2B128-6C12-4B24-B933-3208315D951C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE2B128-6C12-4B24-B933-3208315D951C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A3C5A7-FF63-48F1-A85D-875AE254AB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A3C5A7-FF63-48F1-A85D-875AE254AB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A3C5A7-FF63-48F1-A85D-875AE254AB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A3C5A7-FF63-48F1-A85D-875AE254AB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFD22BBE-A130-4987-AEA5-2D6C62E59931}
+	EndGlobalSection
+EndGlobal

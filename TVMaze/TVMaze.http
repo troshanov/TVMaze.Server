@@ -1,0 +1,7 @@
+@TVMaze_HostAddress = http://localhost:5059
+
+@page=5
+GET {{TVMaze_HostAddress}}/Shows/{{page}}
+Accept: application/json
+
+###
